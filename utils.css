@@ -20,3 +20,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.cinzel-font {
+  font-family: "Cinzel";
+}
+
+.absolute {
+  position: absolute;
+}
