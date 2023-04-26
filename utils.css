@@ -1,0 +1,22 @@
+.bg-red {
+  background-color: transparent;
+}
+.flex {
+  display: flex;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+.align-center {
+  display: flex;
+  align-items: center;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
