@@ -24,7 +24,7 @@ header {
 }
 
 header .logo {
-  width: 190px;
+  width: 150px;
 }
 
 header .header-wrapper .nav-wrapper {
@@ -350,6 +350,32 @@ header .navbar {
   font-size: 16px;
 }
 
+.circle-one,
+.circle-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  padding: 20px !important;
+}
+.circle-one {
+  background-color: #3cb7d8;
+}
+.circle-two {
+  background-color: #0f4c81;
+}
+
+.circle-img {
+  width: 60px;
+  height: 60px;
+  filter: invert(1);
+}
+
+.about-breaker {
+  margin-top: 2rem;
+}
+
 .socials-icons {
   padding: 10px;
   border-radius: 99%;
@@ -418,6 +444,7 @@ ul .list-items a {
 .about-container {
   width: 1200px;
   margin: 0 auto;
+  padding-bottom: 6rem !important;
 }
 .about-title {
   font-size: 42px;
@@ -535,6 +562,9 @@ ul .list-items a {
   header .navbar .nav-item .nav-link {
     font-size: 18px;
   }
+  .about-container {
+    padding-bottom: 2rem !important;
+  }
   .call-button {
     font-size: 18px;
     padding: 7px 40px;
@@ -554,11 +584,14 @@ ul .list-items a {
   }
   .about-desc-wrapper > img {
     margin: 0 auto;
+    width: 300px;
+    height: 300px;
   }
   .text-about-wrapper {
     width: 100% !important;
     margin-top: 2rem;
   }
+
   .footer-ul {
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
@@ -597,7 +630,7 @@ ul .list-items a {
 }
 @media (max-width: 528px) {
   .hr-line {
-    left: 90px;
+    display: none;
   }
   .right-return-text {
     margin-top: 16rem;
@@ -613,5 +646,10 @@ ul .list-items a {
     margin: 0 auto;
     margin-bottom: 3rem;
     margin-top: 1rem;
+  }
+}
+@media (max-width: 528px) {
+  .right-return-text {
+    margin-top: 20rem;
   }
 }
