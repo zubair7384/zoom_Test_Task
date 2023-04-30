@@ -278,28 +278,28 @@ header .navbar {
   align-items: center;
 }
 .line-text-wrapper-1 {
-  top: 0;
-  left: 10rem;
+  top: 30px;
+  left: 12rem;
 }
 .line-text-wrapper-2 {
-  top: 2.5rem;
-  left: 11rem;
+  top: 4rem;
+  left: 13rem;
 }
 .line-text-wrapper-3 {
-  top: 4.8rem;
-  left: 12rem;
+  top: 6.3rem;
+  left: 14rem;
 }
 .line-text-wrapper-4 {
-  top: 7.2rem;
-  left: 12rem;
+  top: 8.7rem;
+  left: 14rem;
 }
 .line-text-wrapper-5 {
-  top: 9.5rem;
-  left: 11rem;
+  top: 11rem;
+  left: 13rem;
 }
 .line-text-wrapper-6 {
-  top: 12rem;
-  left: 10rem;
+  top: 13.5rem;
+  left: 12rem;
 }
 .line-wrapper .dot {
   width: 10px;
@@ -320,8 +320,8 @@ header .navbar {
   margin-left: 15px;
 }
 .hr-line {
-  width: 5%;
-  top: -3px;
+  width: 3%;
+  top: 2px;
   position: absolute;
   background-color: #fff;
 }
